@@ -1,44 +1,14 @@
 body {
-  background: #808080;
+background-image: url("../imgs/ya.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.aligncenter {
-  text-align: center;
-}
-h1 {
-  font-size: 40px;
+h1{
+  font-family: tempus sans itc;
+  font-size: 60px;
   font-weight: 900;
-  color: #DDA0DD;
-  margin-top: 50px;
-  font-family: cursive;
-  animation-name: textAnimation;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes textAnimation {
-    0%   {color: #DDA0DD;}
-    25%  {color:	#B0C4DE;}
-    50%  {color: #008080;}
-    75%  {color: #FFB6C1;}
-    100% {color: #DDA0DD;}
-}
-
-#portret {
-  width: 50%;
-  height: 50%;
-  margin-top: 40px;
-  border-width: 15px;
-  border-style: groove;
-  border-color: #E0FFFF;
-  animation-name: portretBorder;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-@keyframes portretBorder {
-    0%   {border-color: #DDA0DD;}
-    25%  {border-color:	#B0C4DE;}
-    50%  {border-color: #008080;}
-    75%  {border-color: #FFB6C1;}
-    100% {border-color: #DDA0DD;}
+  color:	#9370DB;
+  text-shadow: 4px 4px 4px black;
+  margin-top: 200px;
 }
