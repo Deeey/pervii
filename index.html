@@ -2,9 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
     <title>It's me!</title>
   </head>
   <body>
+    <div class="background">
+
 <table class="header">
   <tr>
       <th>About</th>
@@ -15,11 +18,23 @@
 </table>
 
     <div class="align-center">
-        <h1 class="hey">Hey, my name is</h1>
-        <h1 class="name"> Marina </h1>
+        <h1 class="hey">Hi, my name is</h1>
+        <div w3-include-html="includes/name-animation.html"></div>
+    </div>
+
+  </div>
+
+    <div class="welcome">
+      <p>Welcome to my personal web-site!<p>
+      <p>I am 20 years old girl, who is seeking her way in the life.
+        Always trying something new, never stoping exploring the world.
+        I will share my experience and achievements with you, my friends.
+        There you can track my latest news and see my fresh projects.</p>
 
     </div>
 
-
+    <script>
+      w3IncludeHTML();
+   </script>
   </body>
 </html>
