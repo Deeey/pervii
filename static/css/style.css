@@ -1,29 +1,42 @@
-.background {
-  height: 700px;
+body {
   margin: 0px;
-  background-image: url("../imgs/texture.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.header, .header th {
-    width: 500px;
-    background-color: rgba(240,248,255, 0.3);
-    font-size: 20px;
-    font-family: lithograph;
-    color:   	#4682B4;
+section{
+	height: 600px;
+	padding: 3rem 0;
+	position: relative;
+  background-image: url(https://download.unsplash.com/photo-1428550670225-15f007f6f1ba)
 }
-
-.header {
-  margin-top: 5px;
-  margin-left: 5px;
+section:before{
+	content: attr(data-description);
+	font-size: 0.9rem;
+	font-family: 'oswald';
+	color: #fff;
+	position: absolute;
+	z-index: 20;
+	left: 2rem;
+	top: 2rem;
 }
-
-
-
-#hobbies {
-  font-family: segoe print;
+.wrapper{
+	max-width: 53.33rem;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	transform: translateY(-50%);
+	top:50%;
+	text-align: center;
 }
+.gamma {
+  color: white;
+  font-size: 2rem; /* 36 / 18 = 2 */
+  margin-bottom: 0.825rem;
+}
+.lato{font-family: 'Lato'}
+.thin{font-weight: 100;}
+.uppercase{text-transform: uppercase;}
+.ls-xlarge{letter-spacing: 20px;}
+
 
 
 
@@ -31,19 +44,5 @@
   text-align: center;
 }
 
-.hey {
-  font-family: Century Gothic;
-  font-size: 30px;
-  font-weight: 400;
-  color: white;
-  text-shadow: 2px 2px 20px #032f2d;
-  border-bottom: 5px inset white;
-  border-bottom-width: 2px;
-  margin-top: 120px;
-  width: 500px;
-  display: inline-block;
-}
 
-.welcome {
-  margin-top: 200px;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
